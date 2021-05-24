@@ -1,0 +1,18 @@
+from pydantic import BaseModel
+
+
+class Question(BaseModel):
+    Name: str
+    Age: int
+    Gender: str
+    Active: int
+
+
+class Progres(BaseModel):
+    UserId: str
+    Date: str
+    Completed: bool
+
+
+class Categoriya(BaseModel):
+    Name: str
