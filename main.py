@@ -11,7 +11,7 @@ from fastapi import Query
 
 from pymongo import cursor
 client = pymongo.MongoClient(
-    "connectionString")
+    "mongodb+srv://adming:0WatQ33l94AUHYp4@victorinazhivotnie.wkqdr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 db = client["victorinaZhivotnie"]
 
 app = FastAPI()
